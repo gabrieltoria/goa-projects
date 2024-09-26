@@ -9,8 +9,8 @@ print(name)
 
 
 name="gabi"
-age = 22
-height = 184.5
+age = 9
+height = 18.80
 
 
 knows_programing = True
@@ -22,17 +22,17 @@ isUgly = False
 print(name +" " +surname)
 
 
-
+age = str(age)
 
 print(type(age))
 
 
 
 
+height = str(height)
 
-print(name + age)
 
-
+print(name + surname + age + height)
 
 
 
