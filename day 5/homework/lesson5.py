@@ -29,6 +29,12 @@ print(35 - 19)
 print(35 / 10)
 name = "Anna"
 score = 96
-
 print (name)
 print (score)
+
+flight_n = "BA0117"   # შევქმენით ცვლადი სადაც არის ფრენის ნომერია შენახული
+destination = "New York"  # აქ არის შენახული სად მივფრინავთ
+distance = 1580   # აქ ინახება დისტანცია 
+print(flight_n)  
+print(destination)
+print(distance)

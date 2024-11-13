@@ -1,0 +1,5 @@
+age = input("enter your age")
+print(age)
+weight = input("enter your weight")
+height = input("enter your height")
+aura = input("enter your aura")

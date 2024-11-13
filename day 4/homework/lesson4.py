@@ -10,3 +10,11 @@ float2 = str(float1)
 print(type(str2))
 print(type(int2))
 print(type(float2))
+mom = "tea"
+dad = "giorgi"
+brother = "andria"
+grandmom = "iamze"
+grandad = "gocha"
+string = "10"
+int = 23
+float = 10.5
