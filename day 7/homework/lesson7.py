@@ -1,5 +1,8 @@
 age = input("enter your age")
 print(age)
 weight = input("enter your weight")
+print(weight)
 height = input("enter your height")
+print(height)
 aura = input("enter your aura")
+print(aura)
