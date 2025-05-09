@@ -1,88 +1,32 @@
-<h1 style="color: darkgreen;">ბრიზანოს ბანკი</h1>             
-<h1 style="color: blue;">წინ მიზნისიკენ !</h1> 
-<p>ბალანსი 0000 ლარი</p>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ka">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>ავტორიზაცია</title>
 </head>
 <body>
-    <label for="პას კოდი"></label>
-        <input type="პას კოდი" id="პას კოდი" placeholder="პას კოდი">
-        <p></p>
-        <nav>
-            <ul>
-                <li>
-        <p> თანხის გადარიცხვა =  </p>
-                <label for="ანგარიშის ნომერი"></label>
-                <input type="ანგარიშის ნომერი" id="ანგარიშის ნომერი" placeholder="ანგარიშის ნომერი">  <p>რამდენი ჩავრიცხო?
-                </p> <button>1</button> 
-                <button>2</button>
-                <button>3</button>   
-                <button>4</button>      
-                <button>5</button>
-                <button>6</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-    <p> მობილურზე ჩარიცხვა </p>
-<label for=" ნომერი"></label>
-                <input type=" ნომერი" id=" ნომერი" placeholder=" ნომერი">  <p>რამდენი ჩავრიცხო?
-                </p> <button>1</button> 
-                <button>2</button>
-                <button>3</button>   
-                <button>4</button>      
-                <button>5</button>
-                <button>6</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-<header style="color: chocolate;">გამარჯობა მეგობარო! შენ აქ გაერთობი შეასრულებ ტესტებს , და ბევრ ტკბილეულსაც გამოიძახებ! </header>
-<main style="color: chocolate;">აქ მინიმუმ 9000 ბავშვი და უფროსია ისინი კმაყოფილები არიან ამ ბანკით</main>
-<article style="color: chocolate;">სიახლე გვაქვს! ფასდკლება  ბრიზანოს ნაწილებზე: კილე და ჯონიჯეკის კუნძული,უილიამის თავგადასავლი</article>
-<footer style="color: chocolate;">მოდი გავაგრძელოთ ბანკის ხმარება!</footer>    
-<button style="background-color: chocolate;">შენი ბარათის ინფორმაცია</button>
-    <button style="background-color: aqua;">0000 ლარი</button>
-    <button style="background-color: red;">ცვც 526</button>
-    <button style="background-color: blueviolet;">მოქმედების ვადა 02/27</button>
-    <button style="background-color: brown;">კოდი 5556 6665 4456 7778</button>
+  <h2>შეიყვანე სახელი და გვარი</h2>
+  <form id="form">
+    <input type="text" id="name" placeholder="სახელი" required><br><br>
+    <input type="text" id="surname" placeholder="გვარი" required><br><br>
+    <button type="submit">გაგრძელება</button>
+  </form>
+
+  <script>
+    document.getElementById("form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const name = document.getElementById("name").value.trim();
+      const surname = document.getElementById("surname").value.trim();
+
+      if (name && surname) {
+        localStorage.setItem("name", name);
+        localStorage.setItem("surname", surname);
+        window.location.href = "banki.html"; // აქ გადავდივართ ბანკის გვერდზე
+      } else {
+        alert("გთხოვ შეიყვანე ორივე ველი");
+      }
+    });
+  </script>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-</head>
-<body>
-<select>
 
-    <option value="oeeeeeeccf">
-    <option value="next page">
-    <option value="last page">
- </option>select 
-
-
-<select>       
-
-        <option value="home page">
-        <option value="next page">
-        <option value="last page">
-
- 
- 
-   
-
-
-
-<div style="color: blue;">
-            <main>სიახლე ! ბრიზანოს პირველ ნაწილზე ანიმაციები ფილმად გამოცხადდება უფასოდ კავეაში
-                 იჩქარეთ!!! არ დააგვიანოთ
-     5 დღე გაქვს დრო!</main>
-<p>789667787</p>  </div>   
-
-<h1>შენი ბარათი ციფრულია და მისი დაბლოკვა შეგიძლია</h1>
-<img style="background-color: blue;"
